@@ -4,13 +4,9 @@ import { Button ,Header} from 'react-native-elements'
 import Icon from 'react-native-vector-icons/MaterialIcons'
 import pxSize from '../../utils/pxSize'
 
-export default class Register extends React.Component {
+export default class Privacy extends React.Component {
   constructor() {
     super()
-    this.state= {
-      mobile: '',
-      code
-    }
   }
   render() {
     return (
